@@ -11,6 +11,6 @@ def coins_flips(n,m):
         for i in range(1,n-k+1):
             result_2 *= i
         combins = result_1/result_2
-        p = combins*0.5**n
+        p = combins*0.5**m
         return p
         
